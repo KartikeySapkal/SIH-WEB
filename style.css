@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    background: url(https://i.ibb.co/mFN47p4/background-SIH.png);
+    background-size: cover;
+}
+
+
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    align-items: center;
+    
+}
+
+.logo{ 
+    padding: 3%;
+    font-size: 75px;
+    height: 10vh;
+    color: antiquewhite;
+    font-weight: 900;
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.logo span{
+    color:orange;
+}
+
+.logo span:hover{
+     
+    color: #ffe346;
+}
+
+
+.nav{ 
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    /* border: 2px solid red; */
+    align-items: center;
+    height: 8vh;
+}
+
+.nav a{ 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    padding: 5px 20px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+
+.nav a:hover{ 
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px ;
+
+    color:  black;
+    background-color: rgb(241, 196, 111);
+
+}
+
+
+.main{
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+    width: 600px;
+    margin-left: 28%;
+    position: fixed;
+    left: 5%;
+}
+.main h3{ 
+    display: flex;
+    width: fit-content;
+
+    color: rgb(255, 178, 35);
+    /* border: 2px solid red; */
+    height: 10vh;
+    align-items: center;
+    font-size: 38px;
+    font-family: 'Josefin Sans';
+    font-weight: 400px;
+    border-radius: 30px;
+    
+}
+.main span{ 
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.main h1{ 
+
+    font-size: 70px;
+    color: orange;
+}
+
+.main span1{ 
+    margin-left: 10px;
+    color: rgb(1, 238, 255);
+}
+
+.main p{ 
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    height: 350px;
+    width: 550px;
+    font-family: 'Josefin Sans';
+    transition: 0.5s;
+    margin-left: 3%;
+}
+.main p:hover{ 
+    color: rgb(231, 255, 247);
+    font-size: 36px;
+    height: 350px;
+    width: 595px;
+    margin-left: 3%;
+}
